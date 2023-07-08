@@ -1,0 +1,32 @@
+/**
+ * MyApp - Main Application
+ *
+ * This is the main entry point for MyApp, a revolutionary application that simplifies
+ * task management and enhances productivity. MyApp is designed to streamline workflows
+ * and help users stay organized.
+ *
+ * Features:
+ * - Task creation and management
+ * - Prioritization and deadline tracking
+ * - Collaborative team functionality
+ * - Real-time updates and notifications
+ *
+ * Usage:
+ * 1. Install dependencies: npm install
+ * 2. Start the application: npm start
+ *
+ * Contributors:
+ * - Shaik Mohammed Aslam <aslamshaikmd1697@outlook.com>
+ * - sg haseena<salesforce.ha169@gmail.com>
+ *
+ * License: MIT
+ */
+
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/App';
+
+
+ReactDOM.render(<App />, document.getElementById('root'));
+
